@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+html,body{
+    height: 100%;
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    line-height: 20px;
+}
+
+.pimg1 {
+    background-image: url(image1.jpg);
+    background-size: cover;
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.text{
+ text-transform: uppercase;
+ letter-spacing: 15px;
+ font-size: 27px;
+ background-color: #313534;
+ color: white;
+ padding: 20px;
+}
+.section-one{
+    padding: 60px;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #666;
+}
+.two{
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.pimg2 {
+    background-image: url(image3\ \(1\).jpg);
+    background-size: cover;
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.section-two{
+    padding: 60px;
+    text-align: center;
+    background-color:#313534 ;
+    color: #f4f4f4;
+}
+.pimg3 {
+    background-image: url(image3\ \(2\).jpg);
+    background-size: cover;
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    
+}

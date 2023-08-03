@@ -1,0 +1,39 @@
+.child {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #9BA4B5;
+    border-top: 10px solid #212A3E;
+    animation: spinloader .25s linear 0s infinite normal;
+
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 10px solid #9BA4B5;
+    border-top: 10px solid #212A3E;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes spinloader {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
